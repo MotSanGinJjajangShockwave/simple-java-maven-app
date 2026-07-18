@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo 'Job Complete with the latest update!'
+                echo 'Not going to display Job Complete message!'
             }
         }
     }
